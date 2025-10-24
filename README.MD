@@ -9,3 +9,5 @@ Ubuntu目录的BuildKiCad.md文档中，前面一段是docker的内容，如果�
 ## Window
 
 Windows下构建KiCad安装ppt逐步操作即可；
+
+# 增加Claude的配置
