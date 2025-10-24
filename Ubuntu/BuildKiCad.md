@@ -125,6 +125,41 @@ RUN set -ex; \
     cmake --install . --prefix=/usr/installtemp/
 ```
 
+## 3、安装runtime dependencies
+# install runtime dependencies 
+```sh
+apt-get update && \
+    apt-get install -y libbz2-1.0 \
+    libcairo2 \
+    libglu1-mesa \
+    libglew2.2 \ 
+    libx11-6 \
+    libwxgtk3.2* \
+    libpython3.11 \
+    python3 \ 
+    python3-wxgtk4.0 \
+    python3-yaml \ 
+    python3-typing-extensions \
+    libcurl4 \
+    libngspice0 \
+    ngspice \
+    libocct-modeling-algorithms-7.6 \
+    libocct-modeling-data-7.6 \
+    libocct-data-exchange-7.6 \
+    libocct-visualization-7.6 \
+    libocct-foundation-7.6 \
+    libocct-ocaf-7.6 \
+    unixodbc \
+    zlib1g \
+    shared-mime-info \
+    git \
+    libgit2-1.5 \
+    libsecret-1-0 \
+    libprotobuf32 \
+    libzstd1 \
+    libnng1 \
+    sudo
+```
 
 # 四、编译错误 
 (a)这是网络异常，切换vpn
