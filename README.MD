@@ -1,4 +1,4 @@
-# Build-KiCad
+# Build-KiCad(https://gitlab.com/kicad)
 ## Ubuntu
 Ubuntu目录的BuildKiCad.md文档中，前面一段是docker的内容，如果安装在本机上，可以忽略；
 
